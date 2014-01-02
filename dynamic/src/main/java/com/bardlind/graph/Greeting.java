@@ -1,11 +1,20 @@
 package com.bardlind.graph;
 
-/**
- * Created with IntelliJ IDEA.
- * User: baardl
- * Date: 1/2/14
- * Time: 6:10 PM
- * To change this template use File | Settings | File Templates.
- */
+
 public class Greeting {
+    private final long id;
+    private final String content;
+
+    public Greeting(long id, String content) {
+        this.id = id;
+        this.content = content;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getContent() {
+        return content;
+    }
 }
