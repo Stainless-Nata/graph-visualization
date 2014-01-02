@@ -4,3 +4,11 @@
 *.jar
 *.war
 *.ear
+target/
+
+# Backupfiles
+*.*~
+
+#IDE
+.idea/
+*.iml
