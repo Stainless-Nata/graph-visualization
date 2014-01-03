@@ -8,9 +8,9 @@ public class Link {
     public Link() {
     }
 
-    public Link(String nodeTo, String nodeFrom) {
-        this.nodeTo = nodeTo;
+    public Link(String nodeFrom, String nodeTo) {
         this.nodeFrom = nodeFrom;
+        this.nodeTo = nodeTo;
     }
 
     public String getNodeTo() {

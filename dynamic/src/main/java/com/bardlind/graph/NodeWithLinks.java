@@ -34,7 +34,8 @@ public class NodeWithLinks {
     }
 
     public Link[] getAdjacencies() {
-        return (Link[])adjacencies.toArray();
+        Link[] links = new Link[adjacencies.size()];
+        return adjacencies.toArray(links);
     }
 
     public void addAdjacency(Link adjacency) {

@@ -22,7 +22,7 @@ public class GraphController {
         node1.addAdjacency(new Link("node1", "node3"));
         graph.add(node1);
         NodeWithLinks node2 = new NodeWithLinks("node2", "node2");
-        node1.addAdjacency(new Link("node2", "node3"));
+        node2.addAdjacency(new Link("node2", "node3"));
         graph.add(node2);
         graph.add(new NodeWithLinks("node3", "node3"));
         return graph;

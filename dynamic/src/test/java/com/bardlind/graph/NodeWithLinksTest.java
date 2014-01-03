@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 
 /**
@@ -27,8 +28,9 @@ public class NodeWithLinksTest {
         assertNotNull(node1);
         assertNotNull(node1.getAdjacencies());
         Link[] adjecencies = node1.getAdjacencies();
-
-
+        assertNotNull(adjecencies);
+        assertEquals("node1", adjecencies[0].getNodeFrom());
+        assertEquals("node2", adjecencies[0].getNodeTo());
 
     }
 }
