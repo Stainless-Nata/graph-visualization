@@ -1,0 +1,1 @@
+[{"id":"node1","name":"node1","adjacencies":[{"nodeTo":"node2","nodeFrom":"node1"},{"nodeTo":"node3","nodeFrom":"node1"}]},{"id":"node2","name":"node2","adjacencies":[{"nodeTo":"node3","nodeFrom":"node2"}]},{"id":"node3","name":"node3","adjacencies":[]}]

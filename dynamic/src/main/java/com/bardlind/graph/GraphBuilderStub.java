@@ -15,6 +15,9 @@ public class GraphBuilderStub implements GraphBuilder {
         node2.addAdjacency(new Link("node2", "node3"));
         graph.add(node2);
         graph.add(new NodeWithLinks("node3", "node3"));
+        NodeWithLinks node4 = new NodeWithLinks("node4", "node4");
+        node4.addAdjacency(new Link("node4", "node3"));
+        graph.add(node4);
         return graph;
     }
 }
