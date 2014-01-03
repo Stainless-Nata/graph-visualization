@@ -23,7 +23,6 @@ public class NodeWithLinksTest {
         node1.addAdjacency(new Link("node1", "node3"));
         graph.add(node1);
 
-
         assertNotNull(graph);
         assertNotNull(node1);
         assertNotNull(node1.getAdjacencies());
